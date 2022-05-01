@@ -1,0 +1,85 @@
+.plannerTask {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 5px 5px 15px;
+}
+
+.light-red {
+    background-color: rgb(211, 88, 113);
+}
+
+.light-yellow {
+    background-color: rgb(203, 211, 88);
+}
+
+.light-green {
+    background-color: rgb(108, 211, 88);
+}
+
+.red {
+    background-color: rgb(211, 48, 80);
+}
+
+.yellow {
+    background-color: rgb(211, 208, 48);
+}
+
+.green {
+    background-color: rgb(80, 211, 48);
+}
+
+.plannerTask__priority {
+    border: 2px solid black;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plannerTask__flex-justify {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.plannerTask__destroy-button {
+    border: none;
+    background-color: transparent;
+    color: rgb(211, 48, 80);
+    cursor: pointer;
+
+
+    &:hover {
+        color: rgb(201, 43, 43);
+    }
+
+    &:active {
+        color: rgb(128, 42, 42);
+    }
+}
+
+.plannerTask__flex {
+    display: flex;
+    gap: 20px;
+}
+
+.plannerTask__done-check {
+    border: none;
+    background-color: transparent;
+    color: rgb(1, 33, 214);
+    cursor: pointer;
+
+
+    &:hover {
+        color: rgb(48, 74, 190);
+    }
+
+    &:active {
+        color: rgb(112, 186, 247);
+    }
+}
+
+.plannerTask__edit-button {
+    background-color: transparent;
+    cursor: pointer;
+}
